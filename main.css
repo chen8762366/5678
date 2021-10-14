@@ -122,9 +122,7 @@ ul li{
       justify-content: space-between;
       align-items: flex-end;
   }
-  .place_picture h3{
-      font-size: 26px;
-  }
+   
   .place_list{
       box-shadow: 2px 2px 3px rgb(247, 245, 245);
     height:auto;
@@ -132,12 +130,7 @@ ul li{
   .place_list h3,.place_picture h3,.place_picture span{
       padding: 5px 10px 5px 10px;
   }
-  .tel_and_free{
-      border-bottom-right-radius: 5px;
-      border-bottom-left-radius: 5px;
-      display: flex;
-      justify-content: space-between;
-  }
+ 
   .back_to_select a{
       background: url(https://upload.cc/i1/2021/07/06/27gxj1.png) no-repeat;
       display: block;
@@ -148,43 +141,10 @@ ul li{
       bottom: 110px;
       right: 210px;
   }
-  .choose_page{
-      display: flex;
-      justify-content: center;
-      margin-bottom: 20px;
-  }
-  .choose_page a{
-      text-decoration: none;
-      color: gray;
-      padding: 10px 15px 15px 5px;
-  }
-  .choose_page a:hover,.choose_page a.active,.footer a:hover{
-      color: red;
-  }
   
-  .footer{
-      position: fixed;
-      bottom: 0;
-      background: #559AC8;
-      font-size: 14px;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 90px;
-      width: 1024px;
-  }
+   
   
-  .footer h2{
-      color: #FFF;
-  /*     padding-bottom: 10px; */
-      
-  }
-  .footer a{
-      text-decoration: none;
-      color: #FFD366;
-  }
+   
   .name{
     position: relative;
     top: 50px;
@@ -214,3 +174,26 @@ ul li{
     height: 32px;
     padding: 20px 0;
     }
+    /* 倫波圖 */
+        .img-1{
+            width: 100%;
+            height: 330px;  
+        }
+        .img-hide {  
+            display: none;  
+        }  
+        .guide {  
+            height: 20px;  
+            /* position: fixed;   */
+            top: 140px;  
+            margin: 0 40%; 
+        }  
+        .guide span {  
+            width: 14px;  
+            height: 14px;  
+            display: inline-block;  
+            border-radius: 50%;  
+            background: #cdcdcd;  
+            cursor: pointer; 
+            
+        }  

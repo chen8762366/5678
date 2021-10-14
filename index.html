@@ -13,12 +13,33 @@
     <div class="wrapepr">
         <div class="main">
             <div class="header" id="Idheader">
-                 
                 <input type="search" id="search" class="light-table-filter" data-table="order-table"
                     placeholder="請輸入關鍵字">
-                
             </div>
-             
+            <p class="img">  
+                <img src="./img/叉1.jpg"  class="img-1">  
+                <img src="./img/叉2.jpg"  class="img-1 img-hide">  
+                <img src="./img/叉3.jpg"  class="img-1 img-hide">  
+                <img src="./img/叉4.jpg"  class="img-1 img-hide">  
+                <img src="./img/叉2.jpg"  class="img-1 img-hide">  
+                <img src="./img/叉3.jpg"  class="img-1 img-hide">  
+                <img src="./img/叉4.jpg"  class="img-1 img-hide">  
+                <img src="./img/叉2.jpg"  class="img-1 img-hide">  
+                <img src="./img/叉3.jpg"  class="img-1 img-hide">  
+                <img src="./img/叉4.jpg"  class="img-1 img-hide">  
+            </p>  
+            <p class="guide">  
+                <span></span>  
+                <span></span>  
+                <span></span>  
+                <span></span> 
+                <span></span>  
+                <span></span>  
+                <span></span>  
+                <span></span>
+                <span></span>  
+                <span></span>     
+            </p>  
             <div class="popularLocation">
                 <div class="popularButton">
                     <ul>
@@ -31,18 +52,36 @@
             </div>
             <ul class="locationList"></ul>
             <div class="back_to_select"><a href="#Idheader">回到選擇</a></div>
-
-            <div class="choose_page">
-            </div>
-
+ 
         </div>
-        <div class="footer">
-            <h2>高雄旅遊網</h2>
-            <h2><a href="https://www.kcg.gov.tw/Default.aspx">資料來源：高雄市政府</a></h2>
-        </div>
+         
 
     </div>
     <script src="main.js"></script>
+    <script type="text/javascript">  
+        var selectSpan = document.getElementsByClassName("guide")[0];  
+        var selectImg = document.getElementsByTagName("img");  
+        var nowSpan = document.getElementsByTagName("span");  
+        nowSpan[0].style.background="red";  
+        selectSpan.onclick = function (event) {  
+            var theTarget = event.target;  
+            var i = 0;  
+            // 是父元素的第幾個子元素  
+                while (theTarget = theTarget.previousElementSibling) {  
+                    i++;  
+                }  
+            for (var j = 0; j < nowSpan.length; j++) {  
+                if (i == j) {  
+                    selectImg[j].style.display = "block";  
+                    nowSpan[j].style.background = "red";  
+                } else {  
+                    selectImg[j].style.display = "none";  
+                    nowSpan[j].style.background = "#cdcdcd";  
+                }  
+            }  
+        }  
+        
+    </script>  
 </body>
 
 </html>
