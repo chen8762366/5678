@@ -5,7 +5,7 @@ var data = [
   {
     Name: "杯子",
     Price: "NT100",
-    photo: "https://chen876https://github.com/chen8762366/5678/blob/ea59b394db5bf409c1530cbd1eb3ce6569e17b58/img/%E5%8F%891.jpg2366.github.io/5678/img/杯1.jpg"
+    photo: "https://github.com/chen8762366/5678/blob/ea59b394db5bf409c1530cbd1eb3ce6569e17b58/img/%E5%8F%891.jpg2366.github.io/5678/img/杯1.jpg"
   },
   {
     Name: "杯子",
