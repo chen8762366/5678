@@ -122,7 +122,7 @@ function updateList(e) {
         ` 
       <li> 
         <div class="place_list">
-        <img src="${data[i].Picture1}" alt="商品照片" width=100% height=250px;>
+        <img src="${data[i].Photo}" alt="商品照片" width=100% height=250px;>
           <p>
           ${data[i].Name}</p>
           <p>
@@ -147,7 +147,7 @@ el.addEventListener('click', function (e) {
         ` 
       <li> 
         <div class="place_list">
-        <img src="${data[i].Picture1}" alt="商品照片" width=100% height=250px;>
+        <img src="${data[i].Photo}" alt="商品照片" width=100% height=250px;>
           <p>
           ${data[i].Name}</p>
           <p>
@@ -171,7 +171,7 @@ el.addEventListener('click', function (e) {
         ` 
       <li> 
         <div class="place_list">
-        <img src="${data[i].Picture1}" alt="商品照片" width=100% height=250px;>
+        <img src="${data[i].Photo}" alt="商品照片" width=100% height=250px;>
           <p>
           ${data[i].Name}</p>
           <p>
@@ -195,7 +195,7 @@ el.addEventListener('click', function (e) {
         ` 
     <li> 
       <div class="place_list">
-      <img src="${data[i].Picture1}" alt="商品照片" width=100% height=250px;>
+      <img src="${data[i].Photo}" alt="商品照片" width=100% height=250px;>
         <p>
         ${data[i].Name}</p>
         <p>
@@ -219,7 +219,7 @@ el.addEventListener('click', function (e) {
         ` 
       <li> 
         <div class="place_list">
-        <img src="${data[i].Picture1}" alt="商品照片" width=100% height=250px;>
+        <img src="${data[i].Photo}" alt="商品照片" width=100% height=250px;>
           <p>
           ${data[i].Name}</p>
           <p>
