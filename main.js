@@ -5,7 +5,7 @@ var data = [
   {
     Name: "杯子",
     Price: "NT100",
-    photo: "https://raw.githubusercontent.com/hexschool/KCGTravel/master/image/%E4%B8%89%E6%B0%91%E5%8D%80/%E4%B8%AD%E9%83%BD%E6%BF%95%E5%9C%B0%E5%85%AC%E5%9C%9207.jpg"
+    photo: " "
   },
   {
     Name: "杯子",
@@ -78,7 +78,7 @@ var data = [
   {
     Name: "叉子",
     Price: "NT100",
-    photo: ""
+    photo: "https://github.com/chen8762366/5678/blob/2d066a61a7e37f1076e430079bd48b4f82473cf0/img/%E5%8F%891.jpg?raw=true"
   },
   {
     Name: "叉子",
