@@ -78,7 +78,7 @@ var data = [
   {
     Name: "叉子",
     Price: "NT100",
-    photo: "https://raw.githubusercontent.com/chen8762366/5678/main/img/%E5%8F%891.jpg"
+    photo: "https://github.com/chen8762366/5678/issues/1#issue-1026436997"
   },
   {
     Name: "叉子",
