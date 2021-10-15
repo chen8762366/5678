@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <div id="top"></div>
     <div class="wrapepr">
         <div class="main">
             <div class="header" id="Idheader">
@@ -39,6 +40,10 @@
                 <span></span>
                 <span></span>
             </p>
+            <div class="time">
+                倒數
+                <!-- <h1 class="text-center" id="count-down-timer"></h1> -->
+            </div>
             <div class="popularLocation">
                 <div class="popularButton">
                     <ul>
@@ -50,7 +55,7 @@
                 </div>
             </div>
             <ul class="locationList"></ul>
-            <div class="back_to_select"><a href="#Idheader">回到選擇</a></div>
+            <div class="back_to_select"><a href="#top">回到選擇</a></div>
         </div>
 
 
@@ -79,6 +84,45 @@
             }
         }
     </script>
+    <!-- <script>
+        function paddedFormat(num) {
+            return num < 10 ? "0" + num : num;
+            if num<10 num=(字串)"0"+num else=num
+        }
+
+        function startCountDown(duration, element) {
+
+            let secondsRemaining = duration;
+            let min = 0;
+            let sec = 0;
+
+            let countInterval = setInterval(function() {
+
+                min = parseInt(secondsRemaining / 60);
+                sec = parseInt(secondsRemaining % 60);
+
+                element.textContent = `${paddedFormat(min)}:${paddedFormat(sec)}`;
+
+                secondsRemaining = secondsRemaining - 1;
+                if (secondsRemaining < 0) {
+                    clearInterval(countInterval)
+                };
+
+            }, 1000);
+        }
+
+        window.onload = function() {
+            let time_minutes = 1; // Value in minutes
+            let time_seconds = 30; // Value in seconds
+
+            let duration = time_minutes * 60 + time_seconds;
+
+            element = document.querySelector('#count-down-timer');
+            element.textContent = `${paddedFormat(time_minutes)}:${paddedFormat(time_seconds)}`;
+
+            startCountDown(--duration, element);
+        };
+    </script> -->
 </body>
 
 </html>
