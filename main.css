@@ -1,255 +1,283 @@
-ul li {
-    list-style-type: none;
-}
-
-.wrapepr {
-    margin: 0 auto;
-}
-
-.main {
-    margin-bottom: 90px;
-}
-
-.header {
-    width: 100%;
-    height: 60px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: rgb(134, 134, 134);
-    position: fixed;
-}
-
-.header h1 {
-    padding: 50px 0 50px 0;
-    color: white;
-    font-size: 40px;
-    font-weight: lighter;
-}
-
-.header select {
-    appearance: none;
-    width: 400px;
-    padding: 10px;
-    border-radius: 3px;
-    border: 3px solid #fff;
-    background: rgba(252, 252, 252, 0.6) url(https://upload.cc/i1/2021/07/06/0ZWtk9.png) no-repeat 95% center;
-}
-
-.popularLocation {
-    margin-top: 50px;
-    height: auto;
-    /* width: 25%; */
-    position: flex;
-    top: 300px;
-    border-radius: 5px;
-    background: white;
-    box-shadow: 2px 2px 3px rgb(211, 208, 208);
-    padding: 0 20px 0 20px;
-    float: left;
-}
-
-.popularLocation h2 {
-    font-size: 18px;
-    font-weight: bold;
-    padding: 10px 0 10px 0;
-}
-
-.popularButton {
-    padding-top: 30px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.popularButton input {
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    width: 110px;
-    padding: 10px 0 10px 0;
-}
-
-.popularButton input:hover {
-    color: red;
-    cursor: pointer;
-}
-
-.button1 {
-    background: #a0a0a0;
-    margin-bottom: 5px;
-}
-
-.button2 {
-    background: #a0a0a0;
-    margin-bottom: 5px;
-}
-
-.button3 {
-    background: #a0a0a0;
-    margin-bottom: 5px;
-}
-
-.button4 {
-    background: #a0a0a0;
-    margin-bottom: 5px;
-}
-
-.location {
-    margin: 0 auto;
-    font-size: 20px;
-}
-
-.showLoaction {
-    padding-top: 150px;
-    text-align: center;
-}
-
-.showLoaction h2 {
-    font-size: 36px;
-    color: #8a82cc;
-}
-
-.noplace h2 {
-    font-size: 36px;
-    color: red;
-}
-
-.locationList {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 50px;
-    width: 75%;
-    float: left;
-    margin-top: 80px;
-}
-
-.locationList li {
-    border-radius: 5px;
-    width: 33%;
-    /*     padding: 20px 10px 20px 10px; */
-}
-
-.place_picture {
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    height: 155px;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-}
-
-.place_list {
-    box-shadow: 2px 2px 3px rgb(247, 245, 245);
-    height: auto;
-}
-
-.place_list h3,
-.place_picture h3,
-.place_picture span {
-    padding: 5px 10px 5px 10px;
-}
-
-.back_to_select a {
-    background: url(https://upload.cc/i1/2021/07/06/27gxj1.png) no-repeat;
-    display: block;
-    text-indent: 101%;
-    overflow: hidden;
-    white-space: nowrap;
-    position: fixed;
-    bottom: 110px;
-    right: 210px;
-}
-
-.name {
-    position: relative;
-    top: 50px;
-    left: 15px;
-    font-size: 24px;
-}
-
-.zone {
-    position: relative;
-    left: 400px;
-    bottom: 0;
-    font-size: 16px;
-}
-
-.title {
-    color: #fff;
-}
-
-.text {
-    position: relative;
-    top: -150px;
-}
-
-.right {
-    text-align: right;
-}
-
-
-/* 搜尋列 */
-
-.light-table-filter {
-    position: fixed;
-    width: 60%;
-    height: 32px;
-    padding: 20px 0;
-}
-
-
-/* 倫波圖 */
-
-.img-1 {
-    width: 100%;
-    height: 330px;
-}
-
-.img-hide {
-    display: none;
-}
-
-.guide {
-    height: 20px;
-    /* position: fixed;   */
-    top: 140px;
-    margin: 0 40%;
-}
-
-.guide span {
-    width: 14px;
-    height: 14px;
-    display: inline-block;
-    border-radius: 50%;
-    background: #000000;
-    cursor: pointer;
-}
-
-
-/* lightbox */
-
-.lightbox {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #00000066;
-    z-index: -1;
-    opacity: 0;
-}
-
-.lightbox:target {
-    z-index: 1;
-    opacity: 1;
-    transition: 0.5s;
-}
-
-
-/* time */
+    ul li {
+        list-style-type: none;
+    }
+    
+    .wrapepr {
+        margin: 0 auto;
+    }
+    
+    .main {
+        margin-bottom: 90px;
+    }
+    
+    .header {
+        width: 100%;
+        height: 60px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: rgb(134, 134, 134);
+        position: fixed;
+    }
+    
+    .header h1 {
+        padding: 50px 0 50px 0;
+        color: white;
+        font-size: 40px;
+        font-weight: lighter;
+    }
+    
+    .header select {
+        appearance: none;
+        width: 400px;
+        padding: 10px;
+        border-radius: 3px;
+        border: 3px solid #fff;
+        background: rgba(252, 252, 252, 0.6) url(https://upload.cc/i1/2021/07/06/0ZWtk9.png) no-repeat 95% center;
+    }
+    
+    .popularLocation {
+        margin-top: 50px;
+        height: auto;
+        /* width: 25%; */
+        position: flex;
+        top: 300px;
+        border-radius: 5px;
+        background: white;
+        box-shadow: 2px 2px 3px rgb(211, 208, 208);
+        padding: 0 20px 0 20px;
+        float: left;
+    }
+    
+    @media (max-width: 768px) {
+        .popularLocation {
+            margin-top: 50px;
+            height: auto;
+            width: 100%;
+            position: flex;
+            top: 300px;
+            border-radius: 5px;
+            background: white;
+            box-shadow: 2px 2px 3px rgb(211, 208, 208);
+            padding: 0 20px 0 20px;
+            float: left;
+        }
+    }
+    
+    .popularLocation h2 {
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px 0 10px 0;
+    }
+    
+    .popularButton {
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .popularButton input {
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        width: 110px;
+        padding: 10px 0 10px 0;
+    }
+    
+    .popularButton input:hover {
+        color: red;
+        cursor: pointer;
+    }
+    
+    @media (max-width: 768px) {
+        .popularButton {
+            padding-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .popularButton ul li {
+            float: left;
+            padding: 10px;
+        }
+    }
+    
+    .button1 {
+        background: #a0a0a0;
+        margin-bottom: 5px;
+    }
+    
+    .button2 {
+        background: #a0a0a0;
+        margin-bottom: 5px;
+    }
+    
+    .button3 {
+        background: #a0a0a0;
+        margin-bottom: 5px;
+    }
+    
+    .button4 {
+        background: #a0a0a0;
+        margin-bottom: 5px;
+    }
+    
+    .location {
+        margin: 0 auto;
+        font-size: 20px;
+    }
+    
+    .showLoaction {
+        padding-top: 150px;
+        text-align: center;
+    }
+    
+    .showLoaction h2 {
+        font-size: 36px;
+        color: #8a82cc;
+    }
+    
+    .noplace h2 {
+        font-size: 36px;
+        color: red;
+    }
+    
+    .locationList {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+        width: 75%;
+        float: left;
+        margin-top: 80px;
+    }
+    
+    .locationList li {
+        border-radius: 5px;
+        width: 33%;
+        /*     padding: 20px 10px 20px 10px; */
+    }
+    
+    @media (max-width: 768px) {
+        .locationList li {
+            border-radius: 5px;
+            width: 50%;
+            /*     padding: 20px 10px 20px 10px; */
+        }
+    }
+    
+    .place_picture {
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        height: 155px;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    
+    .place_list {
+        box-shadow: 2px 2px 3px rgb(247, 245, 245);
+        height: auto;
+    }
+    
+    .place_list h3,
+    .place_picture h3,
+    .place_picture span {
+        padding: 5px 10px 5px 10px;
+    }
+    
+    .back_to_select a {
+        background: url(https://upload.cc/i1/2021/07/06/27gxj1.png) no-repeat;
+        display: block;
+        text-indent: 101%;
+        overflow: hidden;
+        white-space: nowrap;
+        position: fixed;
+        bottom: 110px;
+        right: 210px;
+    }
+    
+    .name {
+        position: relative;
+        top: 50px;
+        left: 15px;
+        font-size: 24px;
+    }
+    
+    .zone {
+        position: relative;
+        left: 400px;
+        bottom: 0;
+        font-size: 16px;
+    }
+    
+    .title {
+        color: #fff;
+    }
+    
+    .text {
+        position: relative;
+        top: -150px;
+    }
+    
+    .right {
+        text-align: right;
+    }
+    /* 搜尋列 */
+    
+    .light-table-filter {
+        position: fixed;
+        width: 60%;
+        height: 32px;
+        padding: 20px 0;
+    }
+    /* 倫波圖 */
+    
+    .img-1 {
+        width: 100%;
+        height: 330px;
+    }
+    
+    .img-hide {
+        display: none;
+    }
+    
+    .guide {
+        height: 20px;
+        /* position: fixed;   */
+        top: 140px;
+        margin: 0 40%;
+    }
+    
+    .guide span {
+        width: 14px;
+        height: 14px;
+        display: inline-block;
+        border-radius: 50%;
+        background: #000000;
+        cursor: pointer;
+    }
+    /* lightbox */
+    
+    .lightbox {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #00000066;
+        z-index: -1;
+        opacity: 0;
+    }
+    
+    .lightbox:target {
+        z-index: 1;
+        opacity: 1;
+        transition: 0.5s;
+    }
+    /* time */
