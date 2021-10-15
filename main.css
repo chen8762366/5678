@@ -37,7 +37,7 @@
         background: rgba(252, 252, 252, 0.6) url(https://upload.cc/i1/2021/07/06/0ZWtk9.png) no-repeat 95% center;
     }
     
-    .popularLocation {
+    .leftZone {
         margin-top: 50px;
         height: auto;
         /* width: 25%; */
@@ -51,7 +51,7 @@
     }
     
     @media (max-width: 768px) {
-        .popularLocation {
+        .leftZone {
             margin-top: 50px;
             height: auto;
             width: 100%;
@@ -65,19 +65,19 @@
         }
     }
     
-    .popularLocation h2 {
+    .leftZone h2 {
         font-size: 18px;
         font-weight: bold;
         padding: 10px 0 10px 0;
     }
     
-    .popularButton {
+    .leftButton {
         padding-top: 30px;
         display: flex;
         justify-content: space-between;
     }
     
-    .popularButton input {
+    .leftButton input {
         color: rgb(0, 0, 0);
         font-size: 18px;
         border: none;
@@ -86,19 +86,19 @@
         padding: 10px 0 10px 0;
     }
     
-    .popularButton input:hover {
+    .leftButton input:hover {
         color: red;
         cursor: pointer;
     }
     
     @media (max-width: 768px) {
-        .popularButton {
+        .leftButton {
             padding-top: 30px;
             display: flex;
             justify-content: space-between;
             width: 100%;
         }
-        .popularButton ul li {
+        .leftButton ul li {
             float: left;
             padding: 10px;
         }
