@@ -113,7 +113,12 @@ function updateList(e) {
     //顯示資料
     var search = e.target.value; //了解目前所在元素位置
     var str = '';
-
+    var search;
+    if (!e) {
+        search = ''
+    } else {
+        search = e.target.value;
+    }
     //內容區
     for (var i = 0; i < len; i++) {
         if (search == data[i].Name) {
@@ -253,6 +258,4 @@ el.addEventListener('click', function(e) {
 
     })
     // 圖片
-
-updateList(data);
 area.addEventListener('change', updateList) //事件監聽
